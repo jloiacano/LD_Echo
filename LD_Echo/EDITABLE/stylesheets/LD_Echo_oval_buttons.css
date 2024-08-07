@@ -1,0 +1,96 @@
+/* 
+    // LD_Echo © 2024 by J Loiacano is licensed under CC BY-NC-SA 4.0 
+    // This can be edited.
+ */
+
+/* mimimize and use the LD_Echo_oval_buttons.min.css file as that is the one that the inline scripter calls... */
+/* https://www.freeformatter.com/css-minifier.html */
+
+.echo-console-button {
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.echo-console-minimize-button {
+    background-color: blue;
+    display: none;
+    font-weight: bold;
+}
+
+.limited-console .echo-console-minimize-button {
+    display: block;
+}
+
+.echo-console-minimize-button-text {
+    position: relative;
+    top: 3px;
+    left: -1px
+}
+
+.echo-console-limit-button {
+    background-color: blue;
+    display: none;
+}
+
+.maximized-console .echo-console-limit-button {
+    display: block;
+}
+
+.echo-console-limit-button-text {
+    position: relative;
+    top: 3px;
+    left: 0px
+}
+
+.echo-console-maximize-button {
+    background-color: blue;
+    display: none;
+}
+
+.minimized-console .echo-console-maximize-button {
+    display: block;
+}
+
+.echo-console-maximize-button-text {
+    position: relative;
+    left: -2.5px
+}
+
+.echo-console-close-button {
+    background-color: #e74c3c;
+}
+
+.echo-console-close-button-text {
+    position: relative;
+    top: 1px;
+    left: 0px
+}
+
+.echo-console-copy-button {
+    width: 60px;
+    background-color: darkorange;
+}
+
+    .echo-console-copy-button.copying {
+        width: 90px;
+        background-color: blue;
+    }
+
+    .echo-console-copy-button.copied {
+        width: 70px;
+        background-color: green;
+    }
+
+.echo-console-copy-button-text {
+    position: relative;
+    top: 1px;
+    left: 1px
+}

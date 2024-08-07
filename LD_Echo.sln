@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "LD_Echo", "LD_Echo.phpproj", "{A716579B-DCB2-411D-BE18-4D001FC75788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A716579B-DCB2-411D-BE18-4D001FC75788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A716579B-DCB2-411D-BE18-4D001FC75788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A716579B-DCB2-411D-BE18-4D001FC75788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A716579B-DCB2-411D-BE18-4D001FC75788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E204401-4FC4-412D-8BF5-FD2768D90D92}
+	EndGlobalSection
+EndGlobal

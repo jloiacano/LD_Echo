@@ -1,0 +1,6 @@
+/* 
+    // LD_Echo © 2024 by J Loiacano is licensed under CC BY-NC-SA 4.0 
+    // This can be edited.
+ */
+
+.echo-console-button{color:#fff;border:1px solid grey;border-radius:5px;width:22px;height:22px;text-align:center;cursor:pointer;line-height:20px;font-weight:bold;font-size:12px}.echo-console-button:hover{border-color:white}.echo-console-button:active{border-color:black}.echo-console-minimize-button{width:23px;background-color:blue;display:none;font-weight:bold}.limited-console .echo-console-minimize-button{display:block}.echo-console-minimize-button-text{position:relative;top:3px;left:-1px}.echo-console-limit-button{width:23px;background-color:blue;display:none}.maximized-console .echo-console-limit-button{display:block}.echo-console-limit-button-text{position:relative;top:3px;left:0}.echo-console-maximize-button{width:23px;background-color:blue;display:none}.minimized-console .echo-console-maximize-button{display:block}.echo-console-maximize-button-text{position:relative;left:-2.5px}.echo-console-close-button{background-color:#e74c3c}.echo-console-copy-button{width:60px;background-color:darkorange}.echo-console-copy-button.copying{border-color:black;width:90px;background-color:blue}.echo-console-copy-button.copied{border-color:black;width:70px;background-color:green}

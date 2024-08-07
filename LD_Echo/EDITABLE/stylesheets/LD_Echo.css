@@ -1,0 +1,85 @@
+/* 
+    // LD_Echo © 2024 by J Loiacano is licensed under CC BY-NC-SA 4.0 
+    // This can be edited.
+ */
+
+/* mimimize and use the LD_Echo.min.css file as that is the one that the inline scripter calls... */
+/* https://www.freeformatter.com/css-minifier.html */
+
+.echo-console-container {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.title-bar {
+    background-color: #444;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.title {
+    color: mediumpurple;
+}
+
+.echo-console-display {
+    background-color: #333;
+    color: #0f0;
+    padding: 10px 0;
+}
+
+.limited-console .echo-console-display {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.minimized-console .echo-console-display {
+    display: none;
+}
+
+.maximized-console .echo-console-display {
+    max-height: 740px;
+    overflow-y: auto;
+}
+
+.echo-console-line {
+    padding: 5px 0 5px 30px;
+}
+
+    .echo-console-line.collapsed {
+        color: tomato;
+    }
+
+        .echo-console-line.collapsed > div {
+            display: none;
+        }
+
+        .echo-console-line a {
+            color: orange;
+        }
+
+.collapsable {
+    cursor: pointer;
+}
+
+.up-arrow {
+    display: none;
+}
+
+.collapsed .up-arrow {
+    display: inline;
+}
+
+.down-arrow {
+    display: inline;
+}
+
+.collapsed .down-arrow {
+    display: none;
+}
